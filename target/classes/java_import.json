@@ -1,0 +1,28 @@
+{
+    "credentials": [
+        {
+            "set" : {
+                "settingname": "standard_user",
+                "username": "standard_user",
+                "password": "secret_sauce"
+            }
+        },
+        {
+            "set" : {
+                "settingname": "problem_user",
+                "username": "problem_user",
+                "password": "secret_sauce"
+            }
+        }
+    ],
+
+    "links": [
+        {
+            "address" : {
+                "linkname" : "MainPage",
+                "URL": "https://www.saucedemo.com/"
+            }
+        }
+
+    ]
+}
